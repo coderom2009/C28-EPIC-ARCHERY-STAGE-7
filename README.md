@@ -1,2 +1,1 @@
-# C28-EPIC-ARCHERY-STAGE-7
-EPIC ARCHERY STAGE 7 ; C-28 Project H/W
+# project-C28-template
