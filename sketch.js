@@ -1,4 +1,4 @@
-const Engine = Matter.Engine;
+const Engine = Matter.Engine
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
@@ -47,7 +47,8 @@ function setup() {
 }
 
 function draw() {
-  background(backgroundImg );
+  
+  background("red" );
   image(baseimage,playerBase.position.x,playerBase.position.y,180,150)
   image(playerimage,player.position.x,player.position.y,50,180)
 
