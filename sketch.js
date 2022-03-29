@@ -13,7 +13,7 @@ var shooted;
 var score=0
 var isGameOver = false
 function preload() {
-  backgroundImg = loadImage("./assets/background.png");
+  backgroundImg = loadImage("./assets/background.gif");
   baseimage = loadImage("./assets/base.png");
   playerimage = loadImage("./assets/player.png");
 }
@@ -48,7 +48,7 @@ function setup() {
 
 function draw() {
   
-  background("backgroundImg");
+  background(backgroundImg);
   image(baseimage,playerBase.position.x,playerBase.position.y,180,150)
   image(playerimage,player.position.x,player.position.y,50,180)
 
